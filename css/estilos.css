@@ -1,0 +1,240 @@
+/*Variables globales*/
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: cornsilk;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+/*Utilidades*/
+
+body {
+    background-image: url(../img/espacio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    min-width: 40%;
+    max-height: 50rem;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.disp-flex {
+    display: grid;
+    /*! grid-template-columns: 125vh 40vh; */
+    grid-template-columns: 3fr 1fr;
+    margin: 0.3rem;
+}
+
+.text {
+    margin: auto 0.6rem auto 0.6rem;
+}
+
+.border-r {
+    border: 0.2rem solid cornsilk;
+    border-radius: 1rem;
+    margin: 0.2rem
+}
+
+
+/*Header*/
+
+.content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+header {
+    font-size: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #193675bd;
+}
+
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.99rem;
+}
+
+.enlaces a {
+    padding-right: 1rem;
+}
+
+.enlaces a li {
+    padding: 0.8rem;
+}
+
+.enlaces a li:hover {
+    background-color: #193675dc;
+    border-radius: 0.5rem;
+}
+
+
+/*Contenido principal*/
+
+.main {
+    padding-top: 11vh;
+    text-align: center;
+}
+
+.main h2,
+.main h3 {
+    font-weight: bold;
+}
+
+.articulos {
+    padding: 1rem;
+    display: inline-flex;
+    align-items: center;
+    text-align: justify;
+    font-size-adjust: 0.4;
+}
+
+
+/*Footer*/
+
+.foot {
+    font-size: 1rem;
+    background-color: #1936754e;
+    text-align: center;
+}
+
+
+/**Id's para paginas**/
+
+
+/*Libros*/
+
+#libros-body {
+    background-image: url(../img/wallpaper-libros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#libros-body footer {
+    background-color: #811b1bbd;
+}
+
+#libros-header {
+    background-color: #811b1bbd;
+}
+
+#libros-header a li:hover {
+    background-color: #811b1be3;
+    border-radius: 0.5;
+}
+
+
+/*Nosotros*/
+
+#nosotros-body {
+    background-image: url(../img/wallpaper-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#nosotros-body footer {
+    background-color: #f1ef676e;
+}
+
+#nosotros-header {
+    background-color: #f1ef676e;
+}
+
+#nosotros-header a li:hover {
+    background-color: #f1ef678e;
+    border-radius: 0.5;
+}
+
+
+/*Contacto*/
+
+#contacto-body {
+    background-image: url(../img/wallpaper-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-body footer {
+    background-color: #be67f16e;
+}
+
+#contacto-header {
+    background-color: #be67f16e;
+}
+
+#contacto-header a li:hover {
+    background-color: #be67f18e;
+    border-radius: 0.5;
+}
+
+.img-yo {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.articulo-yo {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.articulo-yo p {
+    font-size: 1.3rem;
+}
+
+.articulo-yo h3 {
+    font-size: 2rem;
+}
+
+.articulo-yo img {
+    max-width: 30vh;
+}
+
+
+/*exito*/
+
+#exito-body {
+    background-image: url(../img/space-wallpaper-exito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#exito-body footer {
+    background-color: #67f1676e;
+}
+
+#exito-header {
+    background-color: #67f1676e;
+}
+
+#exito-header a li:hover {
+    background-color: #67f1858e;
+    border-radius: 0.5;
+}
